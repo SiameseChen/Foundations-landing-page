@@ -1,4 +1,5 @@
 
+/* Header section */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -45,6 +46,7 @@ a {
     text-decoration: none;
 }
 
+/* About section */
 .About {
     background-color: #1F2937;
     display: flex;
@@ -58,18 +60,21 @@ a {
     align-items: left;
     margin: 0px;
     margin-left: 20px;
+    width: 600px;
 }
 
 .about-title {
     font-size: 48px;
     font-weight: 900px;
     color: #F9FAF8;
+    margin: 0;
 
 
 }
 
 .hero-text {
     color: #E5E7EB;
+    margin: 0;
 }
 
 .about-image {
@@ -82,6 +87,8 @@ a {
     margin-right: 30px;
     margin-bottom: 20px;
 }
+
+/* Info section */
 
 .info {
     display: flex;
@@ -122,6 +129,9 @@ a {
     text-align: center;
 }
 
+
+/* Quote section */
+
 .quotes{
     background-color: #E5E7EB;
     font-size: 36px;
@@ -148,6 +158,8 @@ a {
     text-decoration: none;
     text-align: right;
 }
+
+/* Random section */
 
 .random-page {
     background-color: #3882F6;
@@ -176,6 +188,8 @@ a {
     color: white;
     cursor: pointer;
 }
+
+/* Footer section */
 
 .footer {
     background-color: #1F2937;
